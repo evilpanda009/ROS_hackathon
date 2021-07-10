@@ -1,3 +1,5 @@
+
+
 # ROS-hackathon  
 
 ## Our Stack   
@@ -13,6 +15,13 @@ In the catkin workspace:
 - cd to `~/omnibase/omnibase_control/scripts` and then run the `pid.py` script  
   
 This would prompt you to enter the final coordinates for the bot, enter the correct coordinates and watch the bot navigate to it on gazebo  
+  
+https://user-images.githubusercontent.com/70006069/125169096-4dcd3380-e1c6-11eb-9df2-32f629efb7de.mp4  
+  
+  (The Graph shown here is for testing purposes)  
+  
+  Video GDrive link: https://drive.google.com/file/d/1FhvqjtZa1kAv47VaqgMZNlCEI9p2-8nf/view?usp=sharing  
+  
   
 ## Note  
   
