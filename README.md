@@ -4,7 +4,7 @@
 
 ## Our Stack   
 The stack made consists of a path planner (`path_planner.py`) which uses `RRT*` algorithm to find the path as a list of points and `Dijkstra` algorithm to optimize the path which is then used by the PID node (`pid.py`) to
-move the omnibase bot in gazebo by publishing to the /cmd_vel topic. Bothe the planner and the pid node are present in the `~omnibase_control/scripts` folder
+move the omnibase bot in gazebo by publishing to the /cmd_vel topic. Bothe the planner and the pid node are present in the `~/omnibase_control/scripts` folder
   
 ## Use
     
