@@ -17,6 +17,11 @@ catkin_package(
   CATKIN_DEPENDS roscpp geometry_msgs nav_msgs rospy std_msgs tf2_ros
 )
 
+catkin_install_python(PROGRAMS scripts/pid.py scripts/path_planner.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
+
 include_directories(include ${catkin_INCLUDE_DIRS})
 
 add_library(${PROJECT_NAME} src/controller.cpp)
